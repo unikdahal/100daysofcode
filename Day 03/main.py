@@ -15,6 +15,6 @@ if(choice1=='left'):
         else:
             print('Game Over. There is water in the room')
     else:
-        print('Game Over. You fell into the hole')
+        print('Game Over. Crocodile ate you')
 else:
-    print('Game Over')
+    print('Game Over You fell into the hole')
