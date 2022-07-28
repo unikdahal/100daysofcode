@@ -5,11 +5,11 @@ import hangman_art
 
 print(hangman_art.logo)
 print("Welcome to Hangman")
-wordlist=word_list.word_list1
+wordlist= word_list.word_list1
 chosen_word=random.choice(wordlist)
 lives=6
 blank=[]
-stages=hangman_art.stages
+stages= hangman_art.stages
 for i in chosen_word:
     blank.append('_')
 
