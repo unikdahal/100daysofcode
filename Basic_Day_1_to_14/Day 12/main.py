@@ -6,9 +6,9 @@ print("Welcome to the Number Guessing Game:\n")
 print("I'm thinking of a number between 1 and 100m\n")
 
 if input("Choose a Difficulty.Type 'easy' or 'hard").lower()=="easy":
-    guess_count=10
+    guess_count=8
 else:
-    guess_count=5
+    guess_count=4
 
 number=random.randint(1, 100)
 won=False

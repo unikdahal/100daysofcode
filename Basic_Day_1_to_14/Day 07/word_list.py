@@ -141,7 +141,7 @@ word_list1 = [
 'queue',
 'quips',
 'quixotic',
-'quiz',
+'quiz_brain.py',
 'quizzes',
 'quorum',
 'razzmatazz',
